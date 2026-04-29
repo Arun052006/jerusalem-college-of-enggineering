@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 181, 250);
+    color: antiquewhite;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: gold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: gold;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 8% 0;  /* FIXED */
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* FIXED CLASS NAME */
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* FIXED SELECTOR */
+.hero-text h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+}
+
+/* FIXED HOVER TARGET */
+.hero-image:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    display: inline-block; /* FIXED */
+    background-color: antiquewhite;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+    padding: 60px 8%;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* FIXED */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* FIXED */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* FIXED TYPO + MISSING ; */
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid gold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+#experience {
+    background-color: rgb(236, 138, 9);
+}
